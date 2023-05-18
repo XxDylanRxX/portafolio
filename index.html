@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Frame 6.png" alt="logo de la pagina de alura para encriptador" class="logo">  
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area"  cols="20" rows="10" placeholder="Ingresar el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion"> solo letras minusculas y que no lleven acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptador" onclick=" btn_encriptando()">ENCRIPTAR</button>
+                <button class="btn-desencriptador"  onclick=" btn_desencriptando()">DESENCRIPTAR</button>
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="mensaje-desencriptado" cols="20" rows="10" placeholder="Ingresar el texto aquí"></textarea>
+        <div>
+            <button class="copiar">copiar</button>
+        </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
